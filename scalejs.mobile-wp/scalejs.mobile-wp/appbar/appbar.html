@@ -1,0 +1,11 @@
+﻿<div id="appbar_template">
+    <!-- ko class: appbar-content --><!-- /ko -->
+    <div class="appbar__dots row-1 col-8 row-top col-right" data-bind="click: toggleExpanded">...</div>
+</div>
+
+<div id="appbar_content_template">
+    <!-- ko foreach: buttons -->
+    <img src="/images/iconCircle.png" class="appbar__button-icon row-1 col-center" data-class="appbar__button-icon" />
+        <div class="row-2 appbar__button-label" data-class="appbar__button-label"></div>
+    <!-- /ko -->
+</div>

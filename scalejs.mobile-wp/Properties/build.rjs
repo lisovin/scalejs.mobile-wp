@@ -1,0 +1,10 @@
+﻿({
+	mainConfigFile: '../config.js',
+    include: 'scalejs.mobile-wp',
+    exclude: [
+        'scalejs!core',
+		'bindings',
+		'views',
+		'text'
+    ]
+})

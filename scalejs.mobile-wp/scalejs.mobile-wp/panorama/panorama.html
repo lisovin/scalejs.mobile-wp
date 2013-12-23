@@ -1,0 +1,23 @@
+﻿<div id="panorama_template">
+    <div class="panorama">
+        <div class="panorama-header">
+            <!-- ko class: panorama-header-content -->
+            <!-- /ko -->
+        </div>
+        <div class="panorama-content">
+            <ul>
+                <!-- ko class: panorama-items -->
+                <li> 
+                    <div class="panorama-item-header" data-bind="text: header"></div>
+                    <!-- ko class: panorama-page-content -->
+                    <!-- /ko -->
+                </li>
+                <!-- /ko -->
+            </ul>
+        </div>
+    </div> 
+</div>
+
+<div id="panorama_header_default_template">
+    <span data-bind="text: $data"></span>
+</div>

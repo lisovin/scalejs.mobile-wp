@@ -1,0 +1,14 @@
+
+/.nuget/nuget.exe
+/TestResults
+/packages
+/scalejs.mobile-wp.csproj.user
+/scalejs.mobile-wp.v11.suo
+/build
+/obj
+/scalejs.mobile-wp/build
+/scalejs.mobile-wp/obj
+/scalejs.mobile-wp.test/build
+/scalejs.mobile-wp.test/obj
+js/
+*.suo

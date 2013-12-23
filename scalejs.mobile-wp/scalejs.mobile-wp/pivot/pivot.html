@@ -1,0 +1,18 @@
+﻿<div id="pivot_template">
+    <div class="pivot">
+        <div class="pivot-header-container">
+            <!-- ko class: pivot-header-content -->
+            <!-- /ko -->
+        </div>
+        <div class="pivot-content">
+            <ul class="pivot-item-header-container" data-bind="foreach: items">
+                <li class="pivot-item-header" data-bind="text: header"></li>
+            </ul>
+            <div class="pivot-item-content-container" data-class="pivot-item-content"></div>
+        </div>
+    </div> 
+</div>
+
+<div id="pivot_header_default_template">
+    <span data-bind="text: $data"></span>
+</div>
